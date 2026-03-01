@@ -55,3 +55,6 @@ Windows VM -> Azure Monitor Agent -> Log Analytics Workspace -> Microsoft Sentin
 8. Observed attack activity
 
 ### Evidence
+This screenshot shows the Microsoft Azure Portal, which serves as the cloud management interface. This portal allows administrators to deploy and manage cloud infrastructure such as virtual machines, networks, and security resources.
+
+![image alt](https://github.com/Medina703/Sentinel-Lab/blob/9f16d4391cf8830bae94308c51fd57330601a18d/Azure%20Portal%20Home.jpg)
