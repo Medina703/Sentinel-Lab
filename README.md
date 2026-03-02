@@ -93,7 +93,7 @@ Windows VM -> Azure Monitor Agent -> Log Analytics Workspace -> Microsoft Sentin
 
 ### This screenshot shows security logs successfully ingested into Log Analytics Workspace. This confirms that Azure Monitor Agent is forwarding logs correctly.
 
-![image alt}(https://github.com/Medina703/Sentinel-Lab/blob/e9010e71e470584327256349a23c6a9606f2592f/10_Logs%20appearing%20in%20Log%20Analytics.jpg)
+![image alt](https://github.com/Medina703/Sentinel-Lab/blob/e9010e71e470584327256349a23c6a9606f2592f/10_Logs%20appearing%20in%20Log%20Analytics.jpg)
 
 ### This screenshot shows a global attack map visualizing real-world attack sources. This demonstrates continuous automated attack attempts from multiple geographic locations, with mine showing that most attacks are coming from Poland.
 
