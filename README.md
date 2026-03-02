@@ -67,9 +67,10 @@ Windows VM -> Azure Monitor Agent -> Log Analytics Workspace -> Microsoft Sentin
 
 ![image alt](https://github.com/Medina703/Sentinel-Lab/blob/e9010e71e470584327256349a23c6a9606f2592f/Virtual%20Network%20Created.jpg)
 
-### This screenshot shows the successful deployment of a Windows virtual machine. This virtual machine serves as the honeypot target that attackers attempt to access.
+### These screenshots show the successful deployment of a Windows virtual machine. This virtual machine serves as the honeypot target that attackers attempt to access.
 
 ![image alt](https://github.com/Medina703/Sentinel-Lab/blob/e9010e71e470584327256349a23c6a9606f2592f/4_Created%20VM.jpg)
+![image alt](https://github.com/Medina703/Sentinel-Lab/blob/6679d9caf8924528f3b727bf089d67aa7a492680/4_VM%20Proof.jpg)
 
 ### This screenshot shows the Network Security Group configured to allow all inbound traffic. This intentionally vulnerable configuration allows attackers to discover and attempt to access the system, simulating a real-world attack target.
 
