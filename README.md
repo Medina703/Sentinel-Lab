@@ -99,3 +99,11 @@ Windows VM -> Azure Monitor Agent -> Log Analytics Workspace -> Microsoft Sentin
 ### This screenshot shows a global attack map visualizing real-world attack sources. This demonstrates continuous automated attack attempts from multiple geographic locations, with mine showing that most attacks are coming from Poland.
 
 ![image alt](https://github.com/Medina703/Sentinel-Lab/blob/e9010e71e470584327256349a23c6a9606f2592f/11_Windows%2011%20Attack%20Map%20VM%20Real%20Attackers.jpg)
+
+## What I Learned
+
+### This lab helped me understand how a honeypot can be used to observe real attack activity and why centralized logging is so important. By intentionally exposing a virtual machine to the internet, I was able to see how quickly it began receiving failed login attempts. Within a short time, Event ID 4625 entries started appearing in Windows Event Viewer, showing that automated systems were already probing the machine. That alone made it clear how constant and widespread internet scanning really is.
+
+### Forwarding those logs into Microsoft Sentinel using the Azure Monitor Agent allowed me to analyze the activity in a more structured way. Using KQL queries like SecurityEvent | where EventID == 4625 helped me filter and focus specifically on failed authentication attempts. Seeing the attack data populate in Log Analytics and then visualized on the attack map connected everything together for me from the raw log on the VM all the way to SIEM-level monitoring.
+
+### What I proved to myself through this project is that I can deploy cloud infrastructure, configure log ingestion properly, and use a SIEM to detect and investigate suspicious activity. More importantly, I gained a better understanding of how attackers operate at scale and how defenders rely on logs for visibility. This lab made security monitoring feel practical rather than theoretical, and it gave me hands-on experience with tools that are actually used in real environments.
